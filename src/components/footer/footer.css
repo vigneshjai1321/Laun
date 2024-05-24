@@ -1,0 +1,163 @@
+.footer-wrapper {
+    position: relative;
+    padding: 60px 0;
+    color: white;
+  }
+  
+  .footer-wrapper .widget-area {
+    margin-bottom: 30px;
+  }
+  
+  .footer-wrapper .footer-widget {
+    margin-bottom: 30px;
+  }
+  
+  .footer-wrapper .about-logo img {
+    max-width: 150px;
+  }
+  
+  .footer-wrapper .about-text {
+    margin: 20px 0;
+  }
+  
+  .footer-wrapper .footer-info-wrapper {
+    margin-top: 20px;
+  }
+  
+  .footer-wrapper .footer-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .footer-wrapper .footer-info_icon {
+    margin-right: 10px;
+  }
+  
+  .footer-wrapper .text-inherit {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  .footer-wrapper .widget_nav_menu .menu {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-wrapper .widget_nav_menu .menu li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-wrapper .widget_nav_menu .menu li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .footer-wrapper .newsletter-widget .form-control {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-wrapper .newsletter-widget .footer-btn .th-btn {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .footer-wrapper .newsletter-widget .form-group {
+    margin-top: 20px;
+  }
+  
+  .footer-wrapper .newsletter-widget .form-group input {
+    margin-right: 10px;
+  }
+  
+  .footer-wrapper .copyright-wrap {
+    background-color: #333;
+    padding: 20px 0;
+  }
+  
+  .footer-wrapper .copyright-text {
+    margin: 0;
+  }
+  
+  .footer-wrapper .th-social {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .footer-wrapper .th-social a {
+    color: white;
+    margin-left: 10px;
+    text-decoration: none;
+  }
+  
+  .footer-wrapper .animation-bubble .bubble-1,
+  .footer-wrapper .animation-bubble .bubble-2,
+  .footer-wrapper .animation-bubble .bubble-3,
+  .footer-wrapper .animation-bubble .bubble-4,
+  .footer-wrapper .animation-bubble .bubble-5,
+  .footer-wrapper .animation-bubble .bubble-6,
+  .footer-wrapper .animation-bubble .bubble-7,
+  .footer-wrapper .animation-bubble .bubble-8,
+  .footer-wrapper .animation-bubble .bubble-9,
+  .footer-wrapper .animation-bubble .bubble-10 {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    animation: bubble 20s infinite;
+  }
+  
+  .footer-wrapper .animation-bubble .bubble-1 {
+    width: 40px;
+    height: 40px;
+    bottom: 10%;
+    left: 15%;
+    animation-delay: 2s;
+  }
+  
+  .footer-wrapper .animation-bubble .bubble-2 {
+    width: 30px;
+    height: 30px;
+    bottom: 20%;
+    left: 25%;
+    animation-delay: 4s;
+  }
+  
+  /* Add more bubble styles here */
+  
+  @keyframes bubble {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-1000px);
+    }
+  }
+  
+  .scroll-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    background-color: #4caf50;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  
+  .scroll-top svg {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .scroll-top .progress-circle {
+    transform: rotate(-90deg);
+  }
+  
