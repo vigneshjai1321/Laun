@@ -1,0 +1,90 @@
+.th-hero-wrapper {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .hero-1 {
+    /* Add your custom styles here */
+  }
+  
+  .hero-inner {
+    position: relative;
+  }
+  
+  .th-hero-bg {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .th-hero-bg img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .bubble {
+    /* Add bubble styles if needed */
+  }
+  
+  .container {
+    position: relative;
+    z-index: 2;
+  }
+  
+  .hero-style1 {
+    text-align: center;
+    color: #fff;
+  }
+  
+  .sub-title.style1 {
+    display: block;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero-title {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero-text {
+    font-size: 1.25rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .btn-group .th-btn {
+    margin-right: 0.5rem;
+  }
+  
+  .hero-animated-bubble img {
+    position: absolute;
+    animation: bubbleAnimation 20s linear infinite;
+  }
+  
+  @keyframes bubbleAnimation {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-100%);
+    }
+  }
+  
+  .icon-box {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 3;
+  }
+  
+  .slider-arrow {
+    background: none;
+    border: none;
+    font-size: 2rem;
+    color: #fff;
+    cursor: pointer;
+  }
+  
